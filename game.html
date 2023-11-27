@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gun shot</title>
+    <link rel="stylesheet" href="game.css">
+  </head>
+  <body>
+    <div class="all">
+      <button class="click" onclick="boom(1)">
+        click
+      </button>
+      <img id="my_img" src="bottle.png" class="bottle">
+    </div>
+    <script>
+      function boom(x){
+        var a;
+        if(x==1){
+          a="break.png"
+          
+        }
+        document.getElementById('my_img').src = a;
+      }
+    </script>
+  </body>
+</html>

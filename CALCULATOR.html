@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <input type="text" readonly id="result">
+
+    <br>
+    <button onclick="calc(1)">1</button>
+    <button onclick="calc(2)">2</button>
+    <button onclick="calc(3)">3</button>
+    <button onclick="calc('+')">+</button>
+    <br>
+    <button onclick="calc(4)">4</button>
+    <button onclick="calc(5)">5</button>
+    <button onclick="calc(6)">6</button>
+    <button onclick="calc('-')">-</button>
+    <br>
+    <button onclick="calc(7)">7</button>
+    <button onclick="calc(8)">8</button>
+    <button onclick="calc(9)">9</button>
+    <button onclick="calc('*')">*</button>
+    <br>
+    <button onclick="calc(0)">0</button>
+    <button onclick="calc('/')">/</button>
+    <button onclick="clears()">C</button>
+    <button onclick="calculate()">=</button>
+    <script>
+      function calc(x){   
+        // x is the parameter from which the value is passed to the function     
+        document.getElementById('result').value+=x;
+      }
+      function calculate(){
+        var evaluate=eval(document.getElementById('result').value);
+        // eval() method executes one or more javascript statements.
+        // also we shouldn't use it because malicious code can run 
+        // inside your codes without your permission.
+        document.getElementById('result').value=evaluate;
+      }
+      function clears(){
+        document.getElementById('result').value='';
+      }
+    </script>
+  </body>
+</html> 

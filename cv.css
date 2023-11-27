@@ -1,0 +1,76 @@
+p{
+  margin-bottom: 0px;
+  font-family: arial;
+}
+.cv{
+  margin-top: 50px;
+  margin-left: 24px;
+  /* padding-right: 500px;
+  margin-right: 500px; */
+}
+.hillary{
+  font-family: arial;
+  font-size: 37px;
+  font-weight: 550;
+  margin-bottom: 15px;
+  width: 350px;
+  line-height: 15px;
+}
+.olney{
+  color: rgb(96, 96, 96);
+  font-size: small;
+}
+.line{
+  height:5px;
+  background-color: #39C3B1;
+  border: none;
+}
+.summary{
+  display: flex;
+}
+.h1{
+  width:500px ;
+  font-size: small;
+  font-weight: bold;
+}
+.knowledgeable{
+  margin-top: 10px;
+}
+
+.core{
+  display: flex;
+}
+.h2{
+  width:190px ;
+  font-size: small;
+  font-weight: bold;
+}
+.list1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.education{
+  display: flex;
+}
+.h3{
+  width:192px ;
+  font-size: small;
+  font-weight: bold;
+}
+.bachelor{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.work{
+  display: flex;
+  margin-top: 10px;
+}
+.h4{
+  margin-top: 18px;
+  width: 366px;
+  font-size: small;
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+a :link{
+  color: wheat;
+  text-decoration: none;
+}
+.nav{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  list-style-type: none;
+  display: flex;
+  background-color: #333;
+}
+.nav li{
+ color: white;
+ 
+ padding-left: 20px;
+ text-decoration: none;
+}
+
+.nav li:hover{
+  
+  cursor: pointer;
+  background-color: aliceblue;
+  color:green;
+}

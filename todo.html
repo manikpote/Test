@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      TO-DO list
+    </title>
+    <link rel="stylesheet" href="todo.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="line1">
+        <div class="left">
+          <p class="big">12</p>
+          <p>JUN<br>2023</p>
+
+        </div>
+        <div class="right">
+          <p>TUESDAY</p>
+
+        </div>
+      </div>
+      <div class="num1">
+        <p id="p1">Go for a walk.</p>
+        <input type="checkbox" onclick="cross('p1')">
+      </div>
+      <div class="num1">
+        <p id="p2">Read a book.</p>
+        <input type="checkbox" onclick="cross('p2')">
+      </div>
+      <div class="num1">
+        <p id="p3">Play outdoor games.</p>
+        <input type="checkbox" onclick="cross('p3')">
+      </div>
+      <div class="num1">
+        <p id="p4">Renew membership.</p>
+        <input type="checkbox" onclick="cross('p4')">
+      </div>
+      <div class="num1">
+        <p id="p5">Practice a program.</p>
+        <input type="checkbox" onclick="cross('p5')">
+      </div>
+      <div class="num1">
+        <p id="p6">Receive project file.</p>
+        <input type="checkbox" onclick="cross('p6')">
+      </div><div class="num1">
+        <p id="p7">Create new project with team.</p>
+        <input type="checkbox" onclick="cross('p7')">
+      </div>
+    </div>
+    <script>
+      function cross(x) {
+        var a = document.getElementById(x);
+        if (a.style.textDecoration = "line-through") {
+          a.style.textDecoration = "none";
+        } 
+        else {
+          a.style.textDecoration = "line-through";
+        }
+      }
+      </script>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+body{
+  margin-bottom: 500em;
+}
+
+table, th, td{
+  border-bottom: 1px solid;
+  border-collapse: collapse;
+  width: 50%;
+  padding: 10px;
+  margin-left: 20em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img{
+  position: absolute;
+  z-index: -1;
+}
+.ap{
+  color: white;
+}
+table td{
+  text-align: center;
+  vertical-align: top;
+}
+tr:hover{
+  background-color: black;
+  color: white;
+}
+
+.tab{
+  padding: 15px;
+  width: 50%;
+  height: 100px;
+  overflow-x: auto;             
+  /*it is used to add a horizontal scroll bar if the table is too big to display.         */
+}
+ul{
+  position: sticky;
+  top: 0px;
+  background-color: aqua;
+  padding: 10px 0 10px 20px; 
+   /*top right bottom left */
+  line-height: 20px;    
+  font-family: Arial, Helvetica, sans-serif;
+}
+li{
+  display: inline-block;
+  margin-left: 10px;
+
+}
+li:hover{
+  color: grey;
+  cursor: pointer;
+}
+
+.magic:hover{
+  visibility: hidden;
+}

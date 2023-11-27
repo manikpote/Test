@@ -1,0 +1,43 @@
+.log{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.txt1{
+  font-family: Arial;
+  font-weight:bold;
+  font-size: large;
+  margin-bottom: 20px;
+  color: white;
+}
+.login{
+  background-color: rgb(21, 27, 156);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border-radius: 32px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.login:active{
+  transition: 0.1ms;
+  opacity:0.8;
+}
+.txt{
+  font-family: Arial;
+  font-size: 10px;  
+  margin-top: 20px;
+  color: grey;
+}
+.txt:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+body{
+  background-image: url('https://wallpapercave.com/wp/wp2939900.jpg');
+}
